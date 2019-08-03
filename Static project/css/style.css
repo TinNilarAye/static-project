@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color: blue;
+	height: 70px;
+	width: 100%;
+}
+.header ul{
+	list-style: none;
+
+}
+.header ul li{
+	background-color: #006699;
+	line-height: 69px;
+	text-align: center;
+	border-bottom: 1px solid red;
+	width: 20%;
+	float: left;
+}
+.header ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.body{
+	padding:15px 15px ;
+}
+.sidebar{
+	background-color: lightgray;
+	width: 20%;
+	float: left;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px #004466;
+}
+.sidebar:hover{
+	box-shadow:  10px 10px 10px #004466;
+}
+.sidebar ul{
+	list-style: none;
+}
+.sidebar ul li{
+	text-align: center;
+	line-height: 70px;
+	border-bottom: 1px solid black;
+}
+.sidebar ul li :hover{
+	box-shadow: -10px 10px 10px #004466;
+}
+.sidebar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	color: #0088cc;
+}
+.content{
+	width: 78%;
+	background-color: #f2f2f2;
+	float: right;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+hr{
+	border-width: 2px;
+	margin-top: 8px;
+}
+#item div{
+	width: 30%;
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+#item div:hover{
+	box-shadow: 10px 10px 10px darkgray;
+}
+#item p{
+	padding-top: 10px;
+
+
+}
+button{
+	width: 100px;
+	height: 40px;
+	background-color:#006699; 
+	margin-top: 20px;
+	margin-left: 100px;
+	color: white;
+	font-family: serif;
+	font-size: 14px;
+	margin-bottom: 20px;
+
+}
+button:hover{
+	background-color: gray;
+	box-shadow: 10px 10px 10px #006699;
+}
+.f-img{
+	float: left;
+	width: 40%;
+}
+.f-text{
+	float: right;
+	width: 60%;
+	line-height: 30px;
+	font-size: 20px;
+	padding-top: 50px;
+
+}
+.f-btn{
+	height: 50px;
+	width: 100px;
+	background-color: #006699;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-family: serif;
+	margin: 20px 5px 0;
+}
+
+.second{
+	clear: both;
+	margin-top: 20px;
+}
+.s-img{
+	float: right;
+	width: 40%;
+}
+.s-text{
+	float: left;
+	width: 60%;
+	line-height: 30px;
+	font-size: 20px;
+	padding-top: 50px;
+
+}
+.third{
+	clear: both;
+	padding-top: 50px;
+}
+.t-img{
+	float: left;
+	width: 40%;
+}
+.t-text{
+	float: right;
+	width: 60%;
+	line-height: 30px;
+	font-size: 20px;
+	padding-top: 50px;
+
+}
+.electronic{
+	width: 48%;
+	background-color: #f2f2f2;
+	float: left;
+	margin: 10px 20px 10px 0;
+	
+}
+#el-item div:hover{
+	box-shadow: 15px 10px 10px darkgray;
+}
+.books{
+	float: right;
+	width: 48%;
+	background-color: #f2f2f2;
+	margin: 10px 20px 10px 0;
+}
+#el-item div{
+	width: 46%;
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.footer{
+	clear: both;
+	background-color: #003366;
+	height: 50px;
+	text-align: center;
+	color: white;
+	padding-top: 25px;
+	margin-bottom: 10px;
+}
